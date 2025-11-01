@@ -1,39 +1,40 @@
+---
+
 # 🎬 IMDB Movie Data Analysis
 
-This project performs **Exploratory Data Analysis (EDA)** on the [IMDB Movie Dataset](https://www.kaggle.com/datasets) using Python.  
-The goal is to extract meaningful insights into **movie trends, ratings, revenues, and genre performance** through visual and statistical exploration.
+This project performs **Exploratory Data Analysis (EDA)** on the IMDB Movie Dataset using Python. The goal is to uncover meaningful insights into **movie trends, audience ratings, box office revenues, and genre performance** through statistical and visual exploration.
 
 ---
 
-## 📊 Project Objectives
+## 📊 Objectives
 
-- Understand the structure and contents of the IMDB dataset  
-- Explore distributions of movie ratings, revenues, and metascores  
+- Gain a comprehensive understanding of the IMDB dataset structure  
+- Explore distributions of key metrics: ratings, revenues, and metascores  
 - Analyze **genre-based trends** and their correlations  
 - Visualize insights using `matplotlib` and `seaborn`
 
 ---
 
-## 📁 Dataset Information
+## 📁 Dataset Overview
 
-- **File Name:** `IMDB-Movie-Data.csv`  
+- **Filename:** `IMDB-Movie-Data.csv`  
 - **Source:** [Kaggle IMDB Dataset](https://www.kaggle.com/datasets)  
-- **Description:** Contains metadata for 1,000 popular IMDB movies, including:
+- **Description:** Metadata for 1,000 popular IMDB movies, including:
 
-  | Column | Description |
-  |---------|-------------|
-  | Title | Name of the movie |
-  | Genre | Genre(s) of the movie |
-  | Director | Movie director |
-  | Actors | Leading actors |
-  | IMDB Rating | Audience rating |
-  | Metascore | Critic rating |
-  | Revenue (Millions) | Box office revenue |
-  | Year | Year of release |
+  | Column             | Description                  |
+  |--------------------|------------------------------|
+  | Title              | Name of the movie            |
+  | Genre              | Genre(s) of the movie        |
+  | Director           | Movie director               |
+  | Actors             | Leading actors               |
+  | IMDB Rating        | Audience rating              |
+  | Metascore          | Critic rating                |
+  | Revenue (Millions) | Box office revenue           |
+  | Year               | Year of release              |
 
 ---
 
-## 🛠️ Tools and Libraries
+## 🛠️ Tools & Libraries
 
 - Python 3.x  
 - NumPy  
@@ -44,20 +45,25 @@ The goal is to extract meaningful insights into **movie trends, ratings, revenue
 
 ---
 
-## 📈 Key Explorations
+## 📈 Exploratory Highlights
 
-- Overview of dataset (`shape`, `info()`, `describe()`, `head()`)
-- Handling and visualizing **missing data**
-- **Revenue trends** over the years
-- **Distribution analysis** of ratings and metascores
-- **Genre-wise performance** analysis
-- **Correlation heatmaps** for key numerical features
+- Dataset overview: `shape`, `info()`, `describe()`, `head()`  
+- Handling and visualizing **missing data**  
+- **Revenue trends** across release years  
+- Distribution analysis of **IMDB ratings** and **metascores**  
+- **Genre-wise performance** breakdown  
+- **Correlation heatmaps** for numerical features
 
 ---
 
-## 🚀 How to Run
+## 🚀 Getting Started
 
-1. Clone this repository or download the notebook:
+To run the analysis locally:
 
-   ```bash
-   git clone https://github.com/Manavdarji2/imdb-movie-eda.git
+```bash
+git clone https://github.com/Manavdarji2/imdb-movie-eda.git
+```
+
+Then open the notebook in Jupyter and follow along with the cells to explore the data.
+
+---
